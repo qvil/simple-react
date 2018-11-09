@@ -1,10 +1,10 @@
-# Siple React
+# Simple React
 
 React example without setting.
 
 # Start
 
-## Mac
+check [index.html](index.html) in your browser.
 
 > If you already installed `python`
 
