@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1>Simple React</h1>
-    <div class="js_button_container" data-name="Qvil" data-buttonName="Greetings Button"></div>
+    <div class="js_button_container" data-name="React" data-buttonName="Greetings Button"></div>
     <div class="js_button_container" data-name="There" data-buttonName="Greetings Button"></div>
     <!-- Load React. -->
     <!--
@@ -16,8 +16,10 @@
       src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
       crossorigin
     ></script>
-
+    <!-- Load Babel for JSX. -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <!-- Load our React component. -->
-    <script src="JSButton.js"></script>
+    <script type="text/babel" src="JSXButton.js"></script>
+    <!-- <script src="JSButton.js"></script> -->
   </body>
 </html>
