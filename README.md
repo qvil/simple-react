@@ -4,15 +4,22 @@ React example without setting.
 
 # Start
 
-check [index.html](index.html) in your browser.
-
-> If you already installed `python`
-
 ```sh
-python -m SimpleHTTPServer 8000
+npm install
+npm start
 ```
 
-http://localhost:8000/
+http://localhost:3000/
+
+> If you want to using `python`(Prerequisites installed `python`)
+
+```sh
+python -m SimpleHTTPServer 3000
+```
+
+check [index.html](index.html) in your browser.
+
+http://localhost:3000/
 
 # Reference
 
