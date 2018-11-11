@@ -1,0 +1,34 @@
+{
+  "name": "simple-react",
+  "homepage": "https://qvil.github.io/simple-react",
+  "version": "1.0.0",
+  "description": "React example without setting.",
+  "main": "JSButton.js",
+  "scripts": {
+    "start": "npm-run-all dev:*",
+    "dev:server": "nodemon index.js",
+    "dev:client": "npx babel --watch src --out-dir dist --presets react-app/prod",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qvil/simple-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qvil/simple-react/issues"
+  },
+  "homepage": "https://github.com/qvil/simple-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "nodemon": "^1.18.6",
+    "npm-run-all": "^4.1.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "gh-pages": "^2.0.1"
+  }
+}
